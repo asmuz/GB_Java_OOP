@@ -4,13 +4,13 @@ public abstract class Character {
     protected String name;
     protected int health;
     protected int strength;
-    protected int money;
+    protected int agility;
 
-    public Character(String name, int health, int strength, int money) {
+    public Character(String name, int health, int strength, int agility) {
         this.name = name;
         this.health = health;
         this.strength = strength;
-        this.money = money;
+        this.agility = agility;
     }
 
     public abstract void attack();
