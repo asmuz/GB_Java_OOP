@@ -1,3 +1,4 @@
+import characters.*;
 
 /**
  * Урок 1. Принципы ООП: Инкапсуляция, наследование, полиморфизм
@@ -11,6 +12,20 @@
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Peasant peasant = new Peasant("Иван Мельников");
+        Bandit bandit = new Bandit("Степан Шайка");
+        Sniper sniper = new Sniper("Артем Стрелоков");
+        Wizard wizard = new Wizard("Елена Волшебная");
+        Spearman spearman = new Spearman("Александр Копьеносец");
+        Crossbowman crossbowman = new Crossbowman("Наталья Арбалетщица");
+        Monk monk = new Monk("Виктория Блаженная");
+
+        System.out.println(peasant);
+        System.out.println(bandit);
+        System.out.println(sniper);
+        System.out.println(wizard);
+        System.out.println(spearman);
+        System.out.println(crossbowman);
+        System.out.println(monk);
     }
 }

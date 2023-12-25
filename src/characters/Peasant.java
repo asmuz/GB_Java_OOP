@@ -27,6 +27,6 @@ public class Peasant extends Character {
 
     @Override
     public String toString() {
-        return "Крестьянин";
+        return "Крестьянин " + name + ". Здоровье: " + health + ". Сила: " + strength + ". Ловкость: " + agility;
     }
 }
